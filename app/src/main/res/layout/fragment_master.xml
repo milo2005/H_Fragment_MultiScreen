@@ -1,0 +1,50 @@
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="unicauca.movil.holamundo.fragments.fragments.MasterFragment"
+        android:stretchColumns="*"
+        >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33b5e5"
+        android:text="Titulo"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ffb061ff"
+            />
+
+        <TableRow>
+            <Button
+                android:id="@+id/btn1"
+                android:layout_height="wrap_content"
+                android:text="Contenido 1"
+                android:background="#ff4444"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:id="@+id/btn2"
+                android:layout_height="wrap_content"
+                android:text="Contenido 2"
+                android:background="#ccff00"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:id="@+id/btn3"
+                android:layout_height="wrap_content"
+                android:text="Contenido 3"
+                android:background="#ff6600"
+                android:textColor="#ffffff"
+                />
+        </TableRow>
+
+
+</TableLayout>

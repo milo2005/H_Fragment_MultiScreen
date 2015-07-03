@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    tools:context="unicauca.movil.holamundo.fragments.DetailActivity">
+
+    <fragment
+        android:id="@+id/detail"
+        android:name="unicauca.movil.holamundo.fragments.fragments.DetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
